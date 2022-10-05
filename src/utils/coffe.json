@@ -1,0 +1,50 @@
+[
+    {
+        "thumnail": "",
+        "title": "Café Excelso",
+        "body": "Cuerpo: bajo",
+        "sourness": "Acidez: medio-bajo",
+        "flavor": "Sabor: medio-alto",
+        "id": "1"
+    },
+    {
+        "thumnail": "",
+        "title": "Café México",
+        "body": "Cuerpo: medio",
+        "sourness": "Acidez: medio",
+        "flavor": "Sabor: medio",
+        "id": "2"
+    },
+    {
+        "thumnail": "",
+        "title": "Café Cachipay",
+        "body": "Cuerpo: medio",
+        "sourness": "Acidez: medio-bajo",
+        "flavor": "Sabor: medio",
+        "id": "3"
+    },
+    {
+        "thumnail": "",
+        "title": "Café Expreso Blend",
+        "body": "Cuerpo: medio",
+        "sourness": "Acidez: medio-alto",
+        "flavor": "Sabor: medio-alto",
+        "id": "4"
+    },
+    {
+        "thumnail": "",
+        "title": "Café Güanes",
+        "body": "Cuerpo: medio-bajo",
+        "sourness": "Acidez: medio",
+        "flavor": "Sabor: alto",
+        "id": "5"
+    },
+    {
+        "thumnail": "",
+        "title": "Café Tarrazú",
+        "body": "Cuerpo: medio",
+        "sourness": "Acidez: medio-alto",
+        "flavor": "Sabor: medio-alto",
+        "id": "6"
+    }
+]
