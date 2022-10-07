@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="container" href="index.html">
           <a className="navbar-brand">
             <img
-              src="imagenes/establecimiento de cafe.png"
+              src="img/establecimiento-de-cafe.png"
               className="logo"
               alt="Logo Establecimiento de café"
             />

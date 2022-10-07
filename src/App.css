@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.logo {
+  width: 100px;
+  height: 70px;
+}
+
+.cardWidth{
+  width: 18rem;
+}
+
+.buttonCard{
+  cursor: pointer;
+}

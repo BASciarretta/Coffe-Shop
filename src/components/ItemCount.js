@@ -1,28 +1,29 @@
 import { useState } from "react";
 
-const ItemCount = () => {
-    const [coffe, setCoffe] = useState(0)
+const ItemCount = ({ initial, stock, onAdd }) => {
+
+    const [count, setCount] = useState(initial)
 
 const AddCount = () => {
-    if (coffe < 5) {
-        const aux = coffe + 1
-        setCoffe(aux)
+    if (count < stock) {
+        const aux = count + 1
+        setCount(aux)
     }
 }
 
 const RemoveCount = () => {
-    if (coffe > 0) {
-        const aux = coffe - 1
-        setCoffe(aux)
+    if (count > initial) {
+        const aux = count - 1
+        setCount(aux)
         }
 }
     
     return (
         <div className="d-flex justify-content-center">
           <button type="button" onClick={RemoveCount} className="btn btn-dark">-</button>
-          <p className="m-2">{coffe}</p>
+          <p className="m-2">{count}</p>
           <button type="button" onClick={AddCount} className="btn btn-dark">+</button>
-          <button type="button" className="btn btn-dark ms-2">Añadir al carrito</button>
+          <button type="button" onClick={onAdd} className="btn btn-dark ms-2">Añadir al carrito</button>
           </div>
       );
     };

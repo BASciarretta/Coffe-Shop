@@ -1,6 +1,6 @@
 [
     {
-        "thumnail": "",
+        "thumbnail": "img/cafe-excelso.jpg",
         "title": "Café Excelso",
         "body": "Cuerpo: bajo",
         "sourness": "Acidez: medio-bajo",
@@ -8,7 +8,7 @@
         "id": "1"
     },
     {
-        "thumnail": "",
+        "thumbnail": "img/cafe-mexico.jpg",
         "title": "Café México",
         "body": "Cuerpo: medio",
         "sourness": "Acidez: medio",
@@ -16,7 +16,7 @@
         "id": "2"
     },
     {
-        "thumnail": "",
+        "thumbnail": "img/cafe-cachipay.jpg",
         "title": "Café Cachipay",
         "body": "Cuerpo: medio",
         "sourness": "Acidez: medio-bajo",
@@ -24,7 +24,7 @@
         "id": "3"
     },
     {
-        "thumnail": "",
+        "thumbnail": "img/cafe-expreso-blend.jpg",
         "title": "Café Expreso Blend",
         "body": "Cuerpo: medio",
         "sourness": "Acidez: medio-alto",
@@ -32,7 +32,7 @@
         "id": "4"
     },
     {
-        "thumnail": "",
+        "thumbnail": "img/cafe-guanes.jpg",
         "title": "Café Güanes",
         "body": "Cuerpo: medio-bajo",
         "sourness": "Acidez: medio",
@@ -40,7 +40,7 @@
         "id": "5"
     },
     {
-        "thumnail": "",
+        "thumbnail": "img/cafe-tarrazu.jpg",
         "title": "Café Tarrazú",
         "body": "Cuerpo: medio",
         "sourness": "Acidez: medio-alto",
