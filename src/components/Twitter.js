@@ -1,7 +1,7 @@
 const Twitter = () => {
   return (
     <div className="p-2">
-      <a className="link-dark" href="https://twitter.com/?lang=es">
+      <a className="link-dark" href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

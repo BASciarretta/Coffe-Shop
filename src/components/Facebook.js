@@ -1,7 +1,7 @@
 const Facebook = () => {
   return (
     <div className="p-2">
-      <a className="link-dark" href="https://es-la.facebook.com/">
+      <a className="link-dark" href="https://es-la.facebook.com/" target="_blank" rel="noopener noreferrer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
