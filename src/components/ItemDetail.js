@@ -1,20 +1,19 @@
 import ItemCount from "./ItemCount";
-import React from "react";
 import { useState, useContext } from "react";
-import { CartContext } from "./CartContext"
 import { Link } from "react-router-dom";
+import { CartContext } from "./CartContext";
 
 const ItemDetail = ({ products }) => {
   const [itemCount, setItemCount] = useState(0);
-  const test = useContext(CartContext);
+  const context = useContext(CartContext)
 
-  const onAdd = (param) => {
-    setItemCount(param);
-    test.addToCart(products)
+  const onAdd = (qty) => {
+    setItemCount(qty);
+    context.addToCart(products, qty);
   };
 
   return (
-    <div className="p-5">
+    <div className="container p-5">
       <div className="card">
         <div className="row g-0">
           <div className="col-md-4 d-flex">
@@ -46,7 +45,7 @@ const ItemDetail = ({ products }) => {
                 ) : (
                   <Link to="/cart">
                     <button type="button" className="btn btn-danger ms-2">
-                      Comprar
+                      Ir al carrito
                     </button>
                   </Link>
                 )}

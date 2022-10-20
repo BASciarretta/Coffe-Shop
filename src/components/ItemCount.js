@@ -33,7 +33,8 @@ const ItemCount = ({ initial, stock, onAdd }) => {
       ) : (
         <button disabled type="button" className="btn btn-dark ms-2">
           Añadir al carrito
-        </button>)}
+        </button>
+      )}
     </div>
   );
 };
